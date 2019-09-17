@@ -27,28 +27,4 @@ print("")
 print("interesting choice lets move on")
 print("")
 
-pointA=1
-pointB=1
-
-pointTowardAlliance =pointA
-
-pointTowardHorde =pointB
-
-good = pointTowardAlliance
-
-bad = pointTowardHorde
-
-A = good
-
-B = bad
-
-Alliance=(pointA*3)
-
-Horde=(pointB*3)
-
-allegiance = "Horde" or "Alliance"
-
-
-print(allegiance)
-print("")
 print("Question 2")
