@@ -52,7 +52,44 @@ if allegiance=="A":
 elif allegiance=="B":
     B=B+1
 else:
+    print("ERROR...must be A or B.\n")
+print("Yummy food... I should go eat....\n")
+print("Question 4\n\n")
+choice7="A. Apple"
+choice8="B. Android"
+print("This one is the big question",choice7+" or",choice8,"\n")
+allegiance=(input("A or B?\n"))
+if allegiance=="A":
+    A=A+1
+    print("Apple squad\n")
+elif allegiance=="B":
+    B=B+1
+    print("....Lowkey the better choice\n")
+else:
     print("ERROR...must be A or B.")
+print("Last one for the first round.\n")
+print("Question 5\n\n")
+choice9="A. yes"
+choice10="B. no"
+print("Do you like pineapples on pizza?",choice9+" or",choice10,"\n")
+allegiance=(input("A or B?\n"))
+if allegiance=="A":
+    A=A+1
+elif allegiance=="B":
+    B=B+1
+else:
+    print("ERROR...must be A or B.")
+if A>=3:
+    print("You belong to the Alliance\n"
+          "A humble group of courageous hero's posed to protect Azeroth\n"
+          "From those who want to destroy it")
+elif B>=3:
+    print("Welcome",name+" to the Horde\n"
+          "A group of outkasts who are strong in numbers\n"
+          "but our know for their more brute tactics\n")
+
+
+
 
 
 
